@@ -74,7 +74,7 @@ public class PerfilUsuarioActivity extends AppCompatActivity {
                     .load(Global.getGlobalDataUser().getPhotoUrl())
                     .into(ivProfileUser);
         } else {
-            ivProfileUser.setImageResource(R.drawable.ic_star);
+            ivProfileUser.setImageResource(R.drawable.ic_account_circle);
         }
 
     }
